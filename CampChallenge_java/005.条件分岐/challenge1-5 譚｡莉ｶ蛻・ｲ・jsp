@@ -1,0 +1,38 @@
+<%-- 
+    Document   : challenge1-5 条件分岐
+    Created on : 2017/07/04, 14:13:59
+    Author     : keita0
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <%
+        //変数を宣言
+        int number = 2;
+        
+        if(number == 1){
+            out.print("1です!");
+        }else if(number == 2){
+            out.print("プログラミングキャンプ!");
+        }else{
+            out.print("その他です!");
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        %>
+    </body>
+</html>
