@@ -1,0 +1,48 @@
+<%-- 
+    Document   : challenge1-3 四則演算
+    Created on : 2017/07/04, 11:19:37
+    Author     : keita0
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <%
+        final int BASE = 100;
+        int num = 20;
+        
+        int tasu = BASE + num;
+        int hiku = BASE - num;
+        int kakeru = BASE * num;
+        int waru = BASE / num;
+        int jouyo = BASE % num;
+        
+        out.print("100 + 20 =" + tasu + "   <br>");
+        out.print("100 - 20 =" + hiku + "   <br>");
+        out.print("100 * 20 =" + kakeru + "   <br>");
+        out.print("100 / 20 =" + waru + "   <br>");
+        out.print("100 / 20 の余りは" + jouyo + "   <br>");
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        %>
+    </body>
+</html>
